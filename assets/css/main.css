@@ -608,6 +608,9 @@ strong, b, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #363636; }
 
+h3 {
+  margin-top: 10pt; }
+
 blockquote {
   border-left: solid 0.5em #ddd;
   padding: 1em 0 1em 2em;
