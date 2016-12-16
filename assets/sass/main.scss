@@ -772,7 +772,8 @@
 					}
 
 					> img{
-						height: 300px;
+						max-width: 400px;
+						max-height: 500px;
 					}
 				}
 			}
@@ -786,7 +787,8 @@
 				-webkit-flex-direction: row;
 
 				> img{
-					height: 200px;
+					max-height: 400px;
+					max-width: 300px;
 					margin: 0 20px 50px 30px;
 				}
 			}

@@ -1141,7 +1141,8 @@ ol.default {
         .news-item .news-content > div.text .text {
           margin: 0; }
       .news-item .news-content > img {
-        height: 300px; }
+        max-width: 400px;
+        max-height: 500px; }
 
   .post .post-content {
     display: flex;
@@ -1149,7 +1150,8 @@ ol.default {
     flex-direction: row;
     -webkit-flex-direction: row; }
     .post .post-content > img {
-      height: 200px;
+      max-height: 400px;
+      max-width: 300px;
       margin: 0 20px 50px 30px; }
 
   /* Footer */
