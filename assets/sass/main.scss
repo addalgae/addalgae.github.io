@@ -713,6 +713,17 @@
 					//margin: 100pt 30pt 39pt 30pt;
 				}*/
 
+				.article-body{
+					display: flex;
+					display: -webkit-flex;
+					flex-direction: row;
+					-webkit-flex-direction: row;
+
+					> img{
+						margin: 10px 0 0 20px;
+					}
+				}
+
 				#start-img {
 					height: 500px;
 				}
